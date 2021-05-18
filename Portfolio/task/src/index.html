@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<div class="main">
+  <header>
+    <nav class="desktop">
+      <ul class="menu">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="/">Home</a></li>
+      </ul>
+      <span class="toggle">&#9776</span>
+      <ul class="hamburger">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+    <div class="header-text"><h1>Katrin Koka, <br>Java Developer</h1></div>
+  </header>
+  <section id="about">
+    <h2>About me</h2>
+    <img src="img/person.jpg" alt="photo">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Cum eius fuga illum minima necessitatibus obcaecati
+      similique tempore.
+      <br>Ducimus obcaecati reprehenderit repudiandae veritatis. Ab distinctio eveniet fuga maxime quibusdam recusandae,
+      reprehenderit!
+    </p>
+    <p><strong>Skills:</strong> JAVA, JS, React, HTML, CSS</p>
+  </section>
+<!--  TODO: fill the pop-up window text and photo from concrete portfolio card by JS -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <img src="img/project1.png" alt="project one photo">
+    <p>Flashcards</p>
+    <button class="open-window">Show project</button>
+    <img src="img/project2.png" alt="project two photo">
+    <p>Virtual Piano</p>
+    <button class="open-window">Show project</button>
+  </section>
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <p>my contacts....</p>
+    <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+    <a href="#"><img src="img/github.svg" alt="github"></a>
+    <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+    <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
+  </section>
+  <footer>
+    <p>RoKo (c)</p>
+    <p>2021</p>
+  </footer>
+</div>
+
+<div class="pop-up pop-up-display">
+  <div class="window">
+    <h2>Flashcard</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facere nam reprehenderit sint velit! Accusamus
+      accusantium architecto distinctio dolor excepturi explicabo molestiae necessitatibus possimus reiciendis
+      voluptatibus. Accusamus delectus distinctio est.</p>
+    <button class="close-window">Close</button>
+  </div>
+</div>
+</body>
+</html>
